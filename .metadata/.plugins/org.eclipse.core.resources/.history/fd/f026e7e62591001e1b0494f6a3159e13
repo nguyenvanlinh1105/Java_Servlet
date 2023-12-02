@@ -1,0 +1,5 @@
+package java_servlet_anotation;
+
+public class demo_4 extends HttpServlet {
+
+}
