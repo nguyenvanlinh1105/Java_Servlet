@@ -16,7 +16,7 @@ public class demo_5 extends HttpServlet {
 		System.out.println("Method is: "+req.getMethod());
 		req.getContextPath();
 		
-		// Header trả về theo dạng key và value / không dùng được set , map chỉ dùng dược Enumeration 
+		// Header trả về theo dạng key và value 
 		Enumeration <String > keys = req.getHeaderNames();
 		while(keys.hasMoreElements()) {
 			String key = keys.nextElement();
