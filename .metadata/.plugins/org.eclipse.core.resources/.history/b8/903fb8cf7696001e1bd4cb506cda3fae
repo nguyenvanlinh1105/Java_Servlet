@@ -1,0 +1,8 @@
+package java_anotation;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet(urlPatterns = {"/demo11"})
+public class demo_11 extends HttpServlet{
+
+}
