@@ -17,6 +17,6 @@ public class demo_11 extends HttpServlet{
 		String ten =req.getParameter("ten");
 		String tuoi =req.getParameter("tuoi");
 		String diaChi =req.getParameter("diaChi");
-		pr.println("ten: "+ten+"tuoi: "+tuoi+"diaChi:"+diaChi);
+		pr.println("ten"+ten+"tuoi"+tuoi+"diaChi"+diaChi);
 	}
 }

@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2023-12-09T06:10:53Z</updated>
+  <updated>2023-12-12T00:42:29Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>JBoss Blogs: Join Keycloak Developer Day: A Celebration of Innovation and Community!</title>
+    <updated>2023-12-11T00:00:00Z</updated>
+    <id>https://www.keycloak.org/2023/12/keycloak-dev-day-24</id>
+    <link href="https://www.keycloak.org/2023/12/keycloak-dev-day-24" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Monitoring WildFly with Prometheus and Grafana</title>
+    <updated>2023-12-09T19:20:09Z</updated>
+    <id>https://www.mastertheboss.com/jbossas/monitoring/using-prometheus-and-grafana-to-capture-alerts-and-visualize-metrics/</id>
+    <link href="https://www.mastertheboss.com/jbossas/monitoring/using-prometheus-and-grafana-to-capture-alerts-and-visualize-metrics/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: How to monitor WildFly with Prometheus</title>
+    <updated>2023-12-09T18:10:51Z</updated>
+    <id>https://www.mastertheboss.com/jbossas/monitoring/monitoring-wildfly-with-prometheus/</id>
+    <link href="https://www.mastertheboss.com/jbossas/monitoring/monitoring-wildfly-with-prometheus/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Shaping the Future of WildFly Community Social Media!</title>
     <updated>2023-12-07T00:00:00Z</updated>
     <id>https://wildfly.org//news/2023/12/07/WildFly-Social-Media/</id>
@@ -81,17 +102,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Java 17 will be the minimum version for Quarkus 3.7</title>
-    <updated>2023-11-30T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/java-17/</id>
-    <link href="https://quarkus.io/blog/java-17/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Introduction to the various Java based Kubernetes/OpenShift tools and their usages in WildFly related projects</title>
     <updated>2023-11-30T00:00:00Z</updated>
     <id>https://wildfly.org//news/2023/11/30/intro-to-the-various-java-based-k8s-oc-tools/</id>
     <link href="https://wildfly.org//news/2023/11/30/intro-to-the-various-java-based-k8s-oc-tools/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Java 17 will be the minimum version for Quarkus 3.7</title>
+    <updated>2023-11-30T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/java-17/</id>
+    <link href="https://quarkus.io/blog/java-17/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -109,14 +130,7 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Using distributed realm ignore-unavailable-realms attribute in Elytron</title>
-    <updated>2023-11-29T00:00:00Z</updated>
-    <id>https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/</id>
-    <link href="https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.6.0 released - SSE improvements, OIDC and security-related enhancements</title>
+    <title>Quarkus: Quarkus 3.6.0 released - SSE improvements, OIDC and security-related enhancements</title>
     <updated>2023-11-29T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-6-0-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-6-0-released/" rel="alternate"/>
@@ -130,7 +144,14 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Quarkus 3.6.0 released - SSE improvements, OIDC and security-related enhancements</title>
+    <title>JBoss Blogs: Using distributed realm ignore-unavailable-realms attribute in Elytron</title>
+    <updated>2023-11-29T00:00:00Z</updated>
+    <id>https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/</id>
+    <link href="https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.6.0 released - SSE improvements, OIDC and security-related enhancements</title>
     <updated>2023-11-29T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-6-0-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-6-0-released/" rel="alternate"/>
@@ -148,27 +169,6 @@
     <updated>2023-11-27T00:00:00Z</updated>
     <id>https://wildfly.org//news/2023/11/27/prospero-add-feature-pack/</id>
     <link href="https://wildfly.org//news/2023/11/27/prospero-add-feature-pack/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Fastest way to sort an Array in Java</title>
-    <updated>2023-11-25T09:57:42Z</updated>
-    <id>https://www.mastertheboss.com/java/fastest-way-to-sort-an-array-in-java/</id>
-    <link href="https://www.mastertheboss.com/java/fastest-way-to-sort-an-array-in-java/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: SmallRye Stork Unwrapped: Exploring New Features and Enhancements</title>
-    <updated>2023-11-23T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/stork-latest-news/</id>
-    <link href="https://quarkus.io/blog/stork-latest-news/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Keycloak 23.0.0 released</title>
-    <updated>2023-11-23T00:00:00Z</updated>
-    <id>https://www.keycloak.org/2023/11/keycloak-2300-released</id>
-    <link href="https://www.keycloak.org/2023/11/keycloak-2300-released" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
