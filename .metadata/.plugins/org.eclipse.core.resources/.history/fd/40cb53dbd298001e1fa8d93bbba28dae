@@ -18,7 +18,6 @@ public class form11 extends HttpServlet{
 		pr.println("ten: <input type = 'text' name ='ten'>");
 		pr.println("tuoi: <input type = 'text' name ='tuoi'>");
 		pr.println("diaChi: <input type = 'text' name ='diaChi'>");
-		pr.println("ngheNghiep: <input type='text' name='ngheNghiep'>");
 		pr.println("<input type='submit' value='submit'>");
 	}
 }
