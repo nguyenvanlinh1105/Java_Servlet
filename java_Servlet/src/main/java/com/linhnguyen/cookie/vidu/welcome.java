@@ -1,0 +1,34 @@
+package com.linhnguyen.cookie.vidu;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+@WebServlet(urlPatterns = {"/welcome"})
+public class welcome extends HttpServlet{
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		resp.setContentType("text/html");
+		PrintWriter pr = resp.getWriter();
+		String name ="";
+		Cookie[] cookies = req.getCookies();
+		for(Cookie c : cookies) {
+			if(c.getName().equals("username")) {
+				name = c.getValue();
+			}
+		}
+		// set dieu kien khi nguoi do chua login thi ta phai thuc hien day no ve trang login 
+		
+		if(name.equals("")) {
+			resp.sendRedirect("/java_Servlet/login");
+		}
+		pr.println("Xin chao ");
+		
+	}
+}
